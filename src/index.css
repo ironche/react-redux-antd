@@ -1,0 +1,60 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 150%;
+  }
+}
+
+.app-nav {
+  padding: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px;
+}
+
+.data-table th {
+  border: 1px solid #dddddd;
+  text-align: center;
+}
+
+.data-table tbody {
+  border: 1px solid #dddddd;
+}
+
+.data-table tbody tr:hover {
+  background-color: #eee;
+}
+
+.data-table td {
+  text-align: left;
+}
+
+.data-table td.center-cell {
+  text-align: center;
+}
+
+.data-table-header,
+.data-table-footer {
+  padding: 10px;
+}
